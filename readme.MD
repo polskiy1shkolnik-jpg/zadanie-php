@@ -1,39 +1,46 @@
-# Poradnik: Podstawy Markdown
+# Projekt: Tabela zwierząt w PHP
 
-Markdown to prosty język znaczników, który służy do formatowania tekstu. Poniżej znajdziesz ściągawkę z najważniejszych funkcji.
+## Autor
 
----
+Dmytro Belz
 
-## 1. Nagłówki
-Używamy znaku # i spacji przed tekstem.
-# Nagłówek H1
-## Nagłówek H2
-### Nagłówek H3
+## Opis projektu
 
----
+Ten projekt został wykonany w języku PHP.  
+Jego celem było stworzenie strony internetowej, na której wyświetlana jest lista zwierząt wraz z ich zdjęciami.
 
-## 2. Formatowanie tekstu
-Możesz wyróżniać tekst za pomocą gwiazdek:
-* **Pogrubienie**: używamy dwóch gwiazdek `**tekst**`
-* *Kursywa*: używamy jednej gwiazdki `*tekst*`
-* **_Pogrubiona kursywa_**: używamy trzech gwiazdek `***tekst***`
+Na stronie znajdują się:
+
+- nazwy zwierząt
+- zdjęcia zwierząt
 
 ---
 
-## 3. Listy
-Aby stworzyć listę, używamy gwiazdki i spacji:
-* Punkt pierwszy
-* Punkt drugi
-* Punkt trzeci
+## Technologie
+
+- PHP
+- HTML
+- CSS
 
 ---
 
-## 4. Kod i komendy
-Bardzo ważne dla programistów:
-* Kod wewnątrz zdania: używamy pojedynczego grawisu: `git status`
-* Blok kodu: używamy trzech grawisów nad i pod kodem:
+## Czy projekt był trudny?
 
-```bash
-git add .
+Projekt nie był bardzo trudny, ale wymagał zrozumienia podstaw PHP oraz pracy z danymi.
+
+---
+
+## Trudności
+
+- problemy z wyświetlaniem obrazów
+- błędy w składni PHP
+- połączenie PHP z HTML
+
+---
+
+## Podsumowanie
+
+Projekt pomógł lepiej zrozumieć podstawy PHP i tworzenie stron.
+
 git commit -m "Pierwszy commit"
 git push origin main
